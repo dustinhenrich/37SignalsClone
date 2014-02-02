@@ -132,6 +132,18 @@ h1{
 	margin:11px 0;
 }
 
+.baseCampDesc2{
+	font-weight:500;
+	font-style:normal;
+	font-size:58px;
+	line-height:1.0em;
+	margin-top:10px;
+	margin-bottom:20px;
+	letter-spacing:-2px;
+	color:#232323;
+	clear:both;
+}
+
 .services{
 	margin: 38px auto;
 	width:640px;
