@@ -1,29 +1,26 @@
 $(document).ready(function(){
-
-	var basecamp2 = "<h1 class='baseCamp2'>Basecamp is the project management tool you</br> wish you had on your last project</h1>";
-
-	$('#basecamp').mouseenter(function(){
-		$('#intro').hide();
-		$('#baseCamp2').show();
+	$("#basecamp2").hide();
+	$("#basecamp").mouseenter(function(){
+		$("#basecamp2").show();
+	}).mouseleave(function() {
+		$("#basecamp2").hide();
 	});
+});
 
-	$('#basecamp').mouseleave(function(){
-		$('#intro').show()
-	})
-
-	$('#highrise').mouseenter(function(){
-		$('#intro').hide();
+$(document).ready(function(){
+ $("#highrise2").hide();
+	$("#highrise").mouseenter(function(){
+		$("#highrise2").show();
+	}).mouseleave(function() {
+		$("#highrise2").hide();
 	});
+});
 
-	$('#highrise').mouseleave(function(){
-		$('#intro').show();
-	});
-
-	$('#campfire').mouseenter(function(){
-		$('#intro').hide();
-	});
-
-	$('#campfire').mouseleave(function(){
-		$('#intro').show();
+$(document).ready(function(){
+ $("#campfire2").hide();
+	$("#campfire").mouseenter(function(){
+		$("#campfire2").show();
+	}).mouseleave(function() {
+		$("#campfire2").hide();
 	});
 });
