@@ -112,12 +112,13 @@ h1{
 
 #intro{
 	text-align:center;
+	height: 156px;
 }
 
 #intro h1{
 	font-weight:500;
 	font-style:normal;
-	font-size:58px;
+	font-size:45px;
 	line-height:1.0em;
 	margin-top:10px;
 	margin-bottom:20px;
@@ -130,6 +131,36 @@ h1{
 	font-size:20px;
 	font-weight:500;
 	margin:11px 0;
+}
+
+#basecamp{
+	position: relative;
+}
+
+#basecamp #arrow_left{
+	position: absolute;
+	top: -55px;
+	left: 100px;
+}
+
+#highrise{
+	position: relative;
+}
+
+#highrise #arrow_left{
+	position: absolute;
+	top: -55px;
+	left: 100px;
+}
+
+#campfire{
+	position: relative;
+}
+
+#campfire #arrow_right{
+	position: absolute;
+	top: -55px;
+	right: 150px;
 }
 
 .baseCampDesc2{
